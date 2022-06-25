@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST['sql_query']) && trim($_POST['sql_query'])!='' && str_contains($_POST['sql_query'], 'select')) {
+if (isset($_POST['sql_query']) && trim($_POST['sql_query'])!='') {
   $sql = trim($_POST['sql_query']);
   try {
     $query = $conn->query($sql);
