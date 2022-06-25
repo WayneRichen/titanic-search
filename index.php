@@ -15,7 +15,7 @@ require('app.php');
 <body>
 <div class="container">
   <div class="row">
-    <div class="col-6">
+    <div class="col-12 col-md-6">
     <h3>鐵達尼號旅客名單查詢</h3>
     <form action="/" method="POST">
       <div class="form-group">
